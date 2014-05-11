@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/nodemon/bin/nodemon.js api/index.js"
+    "start": "./node_modules/nodemon/bin/nodemon.js index.js"
   },
   "author": "Doron Segal",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "lodash": "^2.4.1",
     "joi": "^3.1.0",
     "hapi": "^4.1.0",
-    "nodemon": "^1.0.17"
+    "nodemon": "^1.0.17",
+    "ejs": "^1.0.0"
   }
 }
