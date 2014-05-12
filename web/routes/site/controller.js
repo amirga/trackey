@@ -1,5 +1,14 @@
 var controller = {};
 
+//set public directory public/js/..
+controller.get_public = {
+    directory: {
+        path: app.dirname + '/web/public',
+        listing: false,
+        index: true
+    }
+};
+
 //main site
 controller.main_site = function(request, reply) {
     var view_obj = {

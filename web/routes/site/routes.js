@@ -1,6 +1,13 @@
 var controller = require('./controller');
 var arr = [
 	{
+        method: 'GET',
+        path: '/public/{path*}',
+        config: {
+            handler: controller.get_public    
+        }
+    },
+    {
 		method  : "GET",
 		path    : "/",
         config: {
@@ -35,6 +42,7 @@ var arr = [
             handler : controller.forgot
         }
     },
+
 ];
 
 module.exports = arr;
